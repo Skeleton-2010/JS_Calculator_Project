@@ -1,0 +1,67 @@
+@font-face {
+  font-family: Digiline;
+  src: url(./digiline.ttf);
+}
+
+* {
+  font-family: Digiline;
+}
+
+body {
+  background-color: #000;
+  background-size: 12px;
+  image-rendering: pixelated;
+}
+
+.Title{
+  color: #fff;
+}
+
+.display {
+  display: inline-block;
+  background-color: #000;
+  border: 1px solid #fff;
+  width: 90%;
+  height: 48px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #0f0;
+  padding: 4px;
+}
+
+.calcBody {
+  width: 100%;
+  margin-bottom: 32px;
+}
+
+#btnBasis {
+  height: 100%;
+  width: 90px;
+  font-size: 24px;
+  background-color: #000;
+  border: 1px solid #fff;
+  color:#fff;
+  padding: 4px;
+}
+
+.calculator {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000;
+  border: 1px solid #fff;
+  padding: 8px;
+}
+
+#btnClear {
+  background-color: #000;
+  border: 1px solid #f00;
+  color: #f00;
+  height: 100%;
+  width: 90px;
+  font-size: 24px;
+  padding: 4px;
+}
